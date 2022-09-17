@@ -1,7 +1,15 @@
 import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Home = () => {
-  return <div>App Home page</div>;
+  return (
+    <>
+      <Header />
+      <div>App Home page</div>
+      <Footer />
+    </>
+  );
 };
 
 export default Home;
